@@ -1,1 +1,2 @@
 # pyrequire
+-require for python
