@@ -20,7 +20,7 @@ res = (exports(*new_args));
 
 if (str(type(res)) == "<class 'dict'>"):
     print('OBJECT*{0}'.format(json.dumps(res)));
-elif (res in None):
+elif (res is None):
     print('NULL*');
 else:
     print('STRING*{0}'.format(res));
